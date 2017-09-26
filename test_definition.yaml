@@ -1,0 +1,18 @@
+function_for_contract_args:
+  - args: [2, 2]
+    return: 4
+  - args: [3, 5]
+    return: 8
+
+function_for_contract_kwargs:
+  - kwargs:
+      kw: 7
+    return: 5
+
+function_for_contract_precondition:
+  - preconditions: [7]
+    args: [2, 2]
+    return: 11
+  - preconditions: [5]
+    args: [3, 5]
+    return: 13
