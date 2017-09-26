@@ -44,19 +44,16 @@ class TestContractual(TestCase):
     contractual = Contractual({
         'function_for_contract_args': [
             {
-                'preconditions': None,
                 'args': (2, 2),
                 'return': 4,
             },
             {
-                'preconditions': None,
                 'args': (3, 5),
                 'return': 8,
             },
         ],
         'function_for_contract_kwargs': [
             {
-                'preconditions': None,
                 'kwargs': {'kw': 7},
                 'return': 5,
             }
